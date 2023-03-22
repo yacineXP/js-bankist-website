@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  Bankist Website
+  Bankist Website [Learning]
   <br>
 <p  align="center">
 <a  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"  target="_blank"  rel="noreferrer"> <img  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"  alt="javascript"  width="48"  height="48"/> </a>
@@ -43,7 +43,7 @@ The website consists of several sections and includes various interactive compon
 <div id="code-examples"></div>
 
 ## 💻 Code Examples
-1. An example of Lazy-loading images on a webpage
+**1. An example of Lazy-loading images on a webpage**
 ```js
 const loadImg = function (entries, observer) {
   const [entry] = entries;
@@ -65,7 +65,7 @@ with ```data-src``` when an image enters the viewport. Once the image has loaded
 element and stops observing the current element using ```observer.unobserve```. This function can significantly improve
 webpage performance by reducing unnecessary network requests and improving page load speed.
 
-2. An exemple of Smooth Scrolling implementation
+**2. An exemple of Smooth Scrolling implementation:**
 ```js
 // Button scrolling
 btnScrollTo.addEventListener("click", function (e) {
